@@ -9,8 +9,16 @@
 
 int main() {
     auto screen = ftxui::ScreenInteractive::TerminalOutput();
+    
+    // =======ELEMENTS=======
+    // =======BUTTONS=======
+    auto button1 = ftxui::Button("Quit", screen.ExitLoopClosure());
+    auto button2 = ftxui::Button("Hello", [&] {});
 
-    auto button = ftxui::Button("Quit", screen.ExitLoopClosure());
+    auto container = ftxui::Container::Vertical({
+        button1,
+        button2
+    });
 
-    screen.Loop(button);
+    screen.Loop(container);
 }
