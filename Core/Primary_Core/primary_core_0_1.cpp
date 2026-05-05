@@ -20,7 +20,7 @@ int main() {
         button2
     });
 
-    container |= ftxui::size(ftxui::WIDTH, ftxui::EQUAL, 10);
+    container |= ftxui::size(ftxui::WIDTH, ftxui::EQUAL, 20);
 
     screen.Loop(container);
 }
