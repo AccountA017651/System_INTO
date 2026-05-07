@@ -87,14 +87,12 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "A:/User_Space/User_Documents/Git_Clones/System_INTO/External/FTXUI_6_1_9_External/FTXUI/include" /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
       <CallingConvention></CallingConvention>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <FloatingPointModel></FloatingPointModel>
       <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
@@ -115,10 +113,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;A:\User_Space\User_Documents\Git_Clones\System_INTO\External\FTXUI_6_1_9_External\FTXUI\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;A:\User_Space\User_Documents\Git_Clones\System_INTO\External\FTXUI_6_1_9_External\FTXUI\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -126,7 +124,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>External\FTXUI_6_1_9_External\FTXUI\Debug\ftxui-screen.lib;External\FTXUI_6_1_9_External\FTXUI\Debug\ftxui-dom.lib;External\FTXUI_6_1_9_External\FTXUI\Debug\ftxui-component.lib;External\FTXUI_6_1_9_External\FTXUI\Debug\ftxui-dom.lib;External\FTXUI_6_1_9_External\FTXUI\Debug\ftxui-screen.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -146,13 +144,11 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "A:/User_Space/User_Documents/Git_Clones/System_INTO/External/FTXUI_6_1_9_External/FTXUI/include" /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
       <CallingConvention></CallingConvention>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <FloatingPointModel></FloatingPointModel>
       <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -175,10 +171,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;A:\User_Space\User_Documents\Git_Clones\System_INTO\External\FTXUI_6_1_9_External\FTXUI\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;A:\User_Space\User_Documents\Git_Clones\System_INTO\External\FTXUI_6_1_9_External\FTXUI\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -186,7 +182,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>External\FTXUI_6_1_9_External\FTXUI\Release\ftxui-screen.lib;External\FTXUI_6_1_9_External\FTXUI\Release\ftxui-dom.lib;External\FTXUI_6_1_9_External\FTXUI\Release\ftxui-component.lib;External\FTXUI_6_1_9_External\FTXUI\Release\ftxui-dom.lib;External\FTXUI_6_1_9_External\FTXUI\Release\ftxui-screen.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -206,13 +202,11 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "A:/User_Space/User_Documents/Git_Clones/System_INTO/External/FTXUI_6_1_9_External/FTXUI/include" /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
       <CallingConvention></CallingConvention>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <FloatingPointModel></FloatingPointModel>
       <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -235,10 +229,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;A:\User_Space\User_Documents\Git_Clones\System_INTO\External\FTXUI_6_1_9_External\FTXUI\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;A:\User_Space\User_Documents\Git_Clones\System_INTO\External\FTXUI_6_1_9_External\FTXUI\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -246,7 +240,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>External\FTXUI_6_1_9_External\FTXUI\MinSizeRel\ftxui-screen.lib;External\FTXUI_6_1_9_External\FTXUI\MinSizeRel\ftxui-dom.lib;External\FTXUI_6_1_9_External\FTXUI\MinSizeRel\ftxui-component.lib;External\FTXUI_6_1_9_External\FTXUI\MinSizeRel\ftxui-dom.lib;External\FTXUI_6_1_9_External\FTXUI\MinSizeRel\ftxui-screen.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -266,14 +260,12 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "A:/User_Space/User_Documents/Git_Clones/System_INTO/External/FTXUI_6_1_9_External/FTXUI/include" /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
       <CallingConvention></CallingConvention>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <FloatingPointModel></FloatingPointModel>
       <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -294,10 +286,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;A:\User_Space\User_Documents\Git_Clones\System_INTO\External\FTXUI_6_1_9_External\FTXUI\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;A:\User_Space\User_Documents\Git_Clones\System_INTO\External\FTXUI_6_1_9_External\FTXUI\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>A:\User_Space\User_Documents\Git_Clones\System_INTO\Toolbox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -305,7 +297,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>External\FTXUI_6_1_9_External\FTXUI\RelWithDebInfo\ftxui-screen.lib;External\FTXUI_6_1_9_External\FTXUI\RelWithDebInfo\ftxui-dom.lib;External\FTXUI_6_1_9_External\FTXUI\RelWithDebInfo\ftxui-component.lib;External\FTXUI_6_1_9_External\FTXUI\RelWithDebInfo\ftxui-dom.lib;External\FTXUI_6_1_9_External\FTXUI\RelWithDebInfo\ftxui-screen.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -380,7 +372,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="A:\User_Space\User_Documents\Git_Clones\System_INTO\Core\Primary_Core\primary_core_0_1.cpp" />
+    <ClCompile Include="A:\User_Space\User_Documents\Git_Clones\System_INTO\Core\Primary_Core\cpp_primary_core_0_1.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -389,18 +381,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include="A:\User_Space\User_Documents\Git_Clones\System_INTO\Build\External\FTXUI_6_1_9_External\FTXUI\component.vcxproj">
-      <Project>{36D8F4AA-BB43-300A-A185-4308918DA6BD}</Project>
-      <Name>component</Name>
-    </ProjectReference>
-    <ProjectReference Include="A:\User_Space\User_Documents\Git_Clones\System_INTO\Build\External\FTXUI_6_1_9_External\FTXUI\dom.vcxproj">
-      <Project>{9DFE5AFB-9417-346C-B053-7A50F034ECA4}</Project>
-      <Name>dom</Name>
-    </ProjectReference>
-    <ProjectReference Include="A:\User_Space\User_Documents\Git_Clones\System_INTO\Build\External\FTXUI_6_1_9_External\FTXUI\screen.vcxproj">
-      <Project>{11CB9932-C4EA-3046-844B-439592928CC9}</Project>
-      <Name>screen</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

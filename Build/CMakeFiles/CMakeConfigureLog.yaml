@@ -82,7 +82,7 @@ events:
       The output was:
       0
       MSBuild version 18.4.0+6e61e96ac for .NET Framework
-      Build started 5/3/2026 4:06:05 PM.
+      Build started 5/7/2026 4:06:20 PM.
       
       Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -111,7 +111,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:02.38
+      Time Elapsed 00:00:03.67
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -695,7 +695,7 @@ events:
       The output was:
       0
       MSBuild version 18.4.0+6e61e96ac for .NET Framework
-      Build started 5/3/2026 4:06:08 PM.
+      Build started 5/7/2026 4:06:26 PM.
       
       Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -724,7 +724,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.98
+      Time Elapsed 00:00:02.30
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -943,8 +943,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-re08h5"
-      binary: "A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-re08h5"
+      source: "A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-doqkdj"
+      binary: "A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-doqkdj"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
@@ -954,39 +954,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-re08h5'
+        Change Dir: 'A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-doqkdj'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_36947.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9c916.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 5/3/2026 4:06:12 PM.
+        Build started 5/7/2026 4:06:30 PM.
         
-        Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-re08h5\\cmTC_36947.vcxproj" on node 1 (default targets).
+        Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-doqkdj\\cmTC_9c916.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-re08h5\\Debug\\".
-          Creating directory "cmTC_36947.dir\\Debug\\cmTC_36947.tlog\\".
+          Creating directory "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-doqkdj\\Debug\\".
+          Creating directory "cmTC_9c916.dir\\Debug\\cmTC_9c916.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_36947.dir\\Debug\\cmTC_36947.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_36947.dir\\Debug\\cmTC_36947.tlog\\unsuccessfulbuild".
+          Creating "cmTC_9c916.dir\\Debug\\cmTC_9c916.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9c916.dir\\Debug\\cmTC_9c916.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_36947.dir\\Debug\\\\" /Fd"cmTC_36947.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9c916.dir\\Debug\\\\" /Fd"cmTC_9c916.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35728 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_36947.dir\\Debug\\\\" /Fd"cmTC_36947.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9c916.dir\\Debug\\\\" /Fd"cmTC_9c916.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-re08h5\\Debug\\cmTC_36947.exe" /INCREMENTAL /ILK:"cmTC_36947.dir\\Debug\\cmTC_36947.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-re08h5/Debug/cmTC_36947.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-re08h5/Debug/cmTC_36947.lib" /MACHINE:X64  /machine:x64 cmTC_36947.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_36947.vcxproj -> A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-re08h5\\Debug\\cmTC_36947.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-doqkdj\\Debug\\cmTC_9c916.exe" /INCREMENTAL /ILK:"cmTC_9c916.dir\\Debug\\cmTC_9c916.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-doqkdj/Debug/cmTC_9c916.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-doqkdj/Debug/cmTC_9c916.lib" /MACHINE:X64  /machine:x64 cmTC_9c916.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9c916.vcxproj -> A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-doqkdj\\Debug\\cmTC_9c916.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_36947.dir\\Debug\\cmTC_36947.tlog\\unsuccessfulbuild".
-          Touching "cmTC_36947.dir\\Debug\\cmTC_36947.tlog\\cmTC_36947.lastbuildstate".
-        Done Building Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-re08h5\\cmTC_36947.vcxproj" (default targets).
+          Deleting file "cmTC_9c916.dir\\Debug\\cmTC_9c916.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9c916.dir\\Debug\\cmTC_9c916.tlog\\cmTC_9c916.lastbuildstate".
+        Done Building Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-doqkdj\\cmTC_9c916.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:02.28
+        Time Elapsed 00:00:01.87
         
       exitCode: 0
   -
@@ -1026,8 +1026,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-yv8t66"
-      binary: "A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-yv8t66"
+      source: "A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-g9kb9d"
+      binary: "A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-g9kb9d"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1038,39 +1038,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-yv8t66'
+        Change Dir: 'A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-g9kb9d'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c65a7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9529d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 5/3/2026 4:06:15 PM.
+        Build started 5/7/2026 4:06:34 PM.
         
-        Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yv8t66\\cmTC_c65a7.vcxproj" on node 1 (default targets).
+        Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-g9kb9d\\cmTC_9529d.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yv8t66\\Debug\\".
-          Creating directory "cmTC_c65a7.dir\\Debug\\cmTC_c65a7.tlog\\".
+          Creating directory "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-g9kb9d\\Debug\\".
+          Creating directory "cmTC_9529d.dir\\Debug\\cmTC_9529d.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c65a7.dir\\Debug\\cmTC_c65a7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c65a7.dir\\Debug\\cmTC_c65a7.tlog\\unsuccessfulbuild".
+          Creating "cmTC_9529d.dir\\Debug\\cmTC_9529d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9529d.dir\\Debug\\cmTC_9529d.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_c65a7.dir\\Debug\\\\" /Fd"cmTC_c65a7.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_9529d.dir\\Debug\\\\" /Fd"cmTC_9529d.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35728 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_c65a7.dir\\Debug\\\\" /Fd"cmTC_c65a7.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_9529d.dir\\Debug\\\\" /Fd"cmTC_9529d.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yv8t66\\Debug\\cmTC_c65a7.exe" /INCREMENTAL /ILK:"cmTC_c65a7.dir\\Debug\\cmTC_c65a7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-yv8t66/Debug/cmTC_c65a7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-yv8t66/Debug/cmTC_c65a7.lib" /MACHINE:X64  /machine:x64 cmTC_c65a7.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_c65a7.vcxproj -> A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yv8t66\\Debug\\cmTC_c65a7.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-g9kb9d\\Debug\\cmTC_9529d.exe" /INCREMENTAL /ILK:"cmTC_9529d.dir\\Debug\\cmTC_9529d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-g9kb9d/Debug/cmTC_9529d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/CMakeFiles/CMakeScratch/TryCompile-g9kb9d/Debug/cmTC_9529d.lib" /MACHINE:X64  /machine:x64 cmTC_9529d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_9529d.vcxproj -> A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-g9kb9d\\Debug\\cmTC_9529d.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_c65a7.dir\\Debug\\cmTC_c65a7.tlog\\unsuccessfulbuild".
-          Touching "cmTC_c65a7.dir\\Debug\\cmTC_c65a7.tlog\\cmTC_c65a7.lastbuildstate".
-        Done Building Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yv8t66\\cmTC_c65a7.vcxproj" (default targets).
+          Deleting file "cmTC_9529d.dir\\Debug\\cmTC_9529d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9529d.dir\\Debug\\cmTC_9529d.tlog\\cmTC_9529d.lastbuildstate".
+        Done Building Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-g9kb9d\\cmTC_9529d.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.72
+        Time Elapsed 00:00:02.18
         
       exitCode: 0
   -
@@ -1101,465 +1101,4 @@ events:
       Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.50.35728.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
-...
-
----
-events:
-  -
-    kind: "find-v1"
-    backtrace:
-      - "External/FTXUI_6_1_9_External/FTXUI/cmake/ftxui_set_options.cmake:1 (find_program)"
-      - "External/FTXUI_6_1_9_External/FTXUI/CMakeLists.txt:152 (include)"
-    mode: "program"
-    variable: "CLANG_TIDY_EXE"
-    description: "Path to clang-tidy executable"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "clang-tidy"
-    candidate_directories:
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/bin/"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/sbin/"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/"
-      - "C:/Users/PERSONAL_ACC_2026_A/Containment/Vulkan_SDK/Bin/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Git/cmd/"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/PERSONAL_ACC_2026_A/User_Program_Files/QEMU/"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/bin/"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/"
-      - "C:/Program Files/bin/"
-      - "C:/Program Files/sbin/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/bin/"
-      - "C:/Program Files (x86)/sbin/"
-      - "C:/Program Files (x86)/"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/sbin/"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/"
-      - "C:/Program Files (x86)/System_INTO/bin/"
-      - "C:/Program Files (x86)/System_INTO/sbin/"
-      - "C:/Program Files (x86)/System_INTO/"
-    searched_directories:
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/bin/clang-tidy.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/bin/clang-tidy.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/bin/clang-tidy"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/sbin/clang-tidy.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/sbin/clang-tidy.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/sbin/clang-tidy"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/clang-tidy.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/clang-tidy.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/clang-tidy"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-tidy.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-tidy.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-tidy"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-tidy.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-tidy.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-tidy"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/clang-tidy.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/clang-tidy.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/clang-tidy"
-      - "C:/Users/PERSONAL_ACC_2026_A/Containment/Vulkan_SDK/Bin/clang-tidy.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/Containment/Vulkan_SDK/Bin/clang-tidy.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/Containment/Vulkan_SDK/Bin/clang-tidy"
-      - "C:/Windows/System32/clang-tidy.com"
-      - "C:/Windows/System32/clang-tidy.exe"
-      - "C:/Windows/System32/clang-tidy"
-      - "C:/Windows/clang-tidy.com"
-      - "C:/Windows/clang-tidy.exe"
-      - "C:/Windows/clang-tidy"
-      - "C:/Windows/System32/wbem/clang-tidy.com"
-      - "C:/Windows/System32/wbem/clang-tidy.exe"
-      - "C:/Windows/System32/wbem/clang-tidy"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-tidy.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-tidy.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-tidy"
-      - "C:/Windows/System32/OpenSSH/clang-tidy.com"
-      - "C:/Windows/System32/OpenSSH/clang-tidy.exe"
-      - "C:/Windows/System32/OpenSSH/clang-tidy"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/clang-tidy.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/clang-tidy.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/clang-tidy"
-      - "C:/ProgramData/chocolatey/bin/clang-tidy.com"
-      - "C:/ProgramData/chocolatey/bin/clang-tidy.exe"
-      - "C:/ProgramData/chocolatey/bin/clang-tidy"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Git/cmd/clang-tidy.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Git/cmd/clang-tidy.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Git/cmd/clang-tidy"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/clang-tidy.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/clang-tidy.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/clang-tidy"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WindowsApps/clang-tidy.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WindowsApps/clang-tidy.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WindowsApps/clang-tidy"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe/clang-tidy.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe/clang-tidy.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe/clang-tidy"
-      - "C:/Users/PERSONAL_ACC_2026_A/User_Program_Files/QEMU/clang-tidy.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/User_Program_Files/QEMU/clang-tidy.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/User_Program_Files/QEMU/clang-tidy"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/clang-tidy.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/clang-tidy.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/clang-tidy"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/bin/clang-tidy.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/bin/clang-tidy.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/bin/clang-tidy"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/clang-tidy.com"
-    found: "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/clang-tidy.exe"
-    search_context:
-      ENV{CMAKE_PREFIX_PATH}:
-        - "C:\\Users\\PERSONAL_ACC_2026_A\\CTM_Dev_Tools\\CTM_Scoop\\apps\\sdl2\\current"
-      ENV{PATH}:
-        - "c:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\Microsoft_VS_Code"
-        - "C:\\Users\\PERSONAL_ACC_2026_A\\Containment\\Vulkan_SDK\\Bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\Git\\cmd"
-        - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "C:\\Users\\PERSONAL_ACC_2026_A\\User_Program_Files\\QEMU"
-        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\bin\\NASM"
-        - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\Microsoft_VS_Code\\bin"
-        - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\LLVM\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/System_INTO"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake"
-        - "C:/Program Files (x86)/System_INTO"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "External/FTXUI_6_1_9_External/FTXUI/cmake/iwyu.cmake:1 (find_program)"
-      - "External/FTXUI_6_1_9_External/FTXUI/CMakeLists.txt:165 (include)"
-    mode: "program"
-    variable: "iwyu_path"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "include-what-you-use"
-      - "iwyu"
-    candidate_directories:
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/bin/"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/sbin/"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/"
-      - "C:/Users/PERSONAL_ACC_2026_A/Containment/Vulkan_SDK/Bin/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Git/cmd/"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/PERSONAL_ACC_2026_A/User_Program_Files/QEMU/"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/bin/"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/"
-      - "C:/Program Files/bin/"
-      - "C:/Program Files/sbin/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/bin/"
-      - "C:/Program Files (x86)/sbin/"
-      - "C:/Program Files (x86)/"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/sbin/"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/"
-      - "C:/Program Files (x86)/System_INTO/bin/"
-      - "C:/Program Files (x86)/System_INTO/sbin/"
-      - "C:/Program Files (x86)/System_INTO/"
-    searched_directories:
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/bin/include-what-you-use.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/bin/include-what-you-use.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/bin/include-what-you-use"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/sbin/include-what-you-use.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/sbin/include-what-you-use.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/sbin/include-what-you-use"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/include-what-you-use.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/include-what-you-use.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/include-what-you-use"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/include-what-you-use.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/include-what-you-use.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/include-what-you-use"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/include-what-you-use.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/include-what-you-use.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/include-what-you-use"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/include-what-you-use.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/include-what-you-use.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/include-what-you-use"
-      - "C:/Users/PERSONAL_ACC_2026_A/Containment/Vulkan_SDK/Bin/include-what-you-use.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/Containment/Vulkan_SDK/Bin/include-what-you-use.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/Containment/Vulkan_SDK/Bin/include-what-you-use"
-      - "C:/Windows/System32/include-what-you-use.com"
-      - "C:/Windows/System32/include-what-you-use.exe"
-      - "C:/Windows/System32/include-what-you-use"
-      - "C:/Windows/include-what-you-use.com"
-      - "C:/Windows/include-what-you-use.exe"
-      - "C:/Windows/include-what-you-use"
-      - "C:/Windows/System32/wbem/include-what-you-use.com"
-      - "C:/Windows/System32/wbem/include-what-you-use.exe"
-      - "C:/Windows/System32/wbem/include-what-you-use"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/include-what-you-use.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/include-what-you-use.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/include-what-you-use"
-      - "C:/Windows/System32/OpenSSH/include-what-you-use.com"
-      - "C:/Windows/System32/OpenSSH/include-what-you-use.exe"
-      - "C:/Windows/System32/OpenSSH/include-what-you-use"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include-what-you-use.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include-what-you-use.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include-what-you-use"
-      - "C:/ProgramData/chocolatey/bin/include-what-you-use.com"
-      - "C:/ProgramData/chocolatey/bin/include-what-you-use.exe"
-      - "C:/ProgramData/chocolatey/bin/include-what-you-use"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Git/cmd/include-what-you-use.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Git/cmd/include-what-you-use.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Git/cmd/include-what-you-use"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/include-what-you-use.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/include-what-you-use.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/include-what-you-use"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WindowsApps/include-what-you-use.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WindowsApps/include-what-you-use.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WindowsApps/include-what-you-use"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe/include-what-you-use.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe/include-what-you-use.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe/include-what-you-use"
-      - "C:/Users/PERSONAL_ACC_2026_A/User_Program_Files/QEMU/include-what-you-use.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/User_Program_Files/QEMU/include-what-you-use.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/User_Program_Files/QEMU/include-what-you-use"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/include-what-you-use.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/include-what-you-use.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/include-what-you-use"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/bin/include-what-you-use.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/bin/include-what-you-use.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/bin/include-what-you-use"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/include-what-you-use.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/include-what-you-use.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/include-what-you-use"
-      - "C:/Program Files/bin/include-what-you-use.com"
-      - "C:/Program Files/bin/include-what-you-use.exe"
-      - "C:/Program Files/bin/include-what-you-use"
-      - "C:/Program Files/sbin/include-what-you-use.com"
-      - "C:/Program Files/sbin/include-what-you-use.exe"
-      - "C:/Program Files/sbin/include-what-you-use"
-      - "C:/Program Files/include-what-you-use.com"
-      - "C:/Program Files/include-what-you-use.exe"
-      - "C:/Program Files/include-what-you-use"
-      - "C:/Program Files (x86)/bin/include-what-you-use.com"
-      - "C:/Program Files (x86)/bin/include-what-you-use.exe"
-      - "C:/Program Files (x86)/bin/include-what-you-use"
-      - "C:/Program Files (x86)/sbin/include-what-you-use.com"
-      - "C:/Program Files (x86)/sbin/include-what-you-use.exe"
-      - "C:/Program Files (x86)/sbin/include-what-you-use"
-      - "C:/Program Files (x86)/include-what-you-use.com"
-      - "C:/Program Files (x86)/include-what-you-use.exe"
-      - "C:/Program Files (x86)/include-what-you-use"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/include-what-you-use.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/include-what-you-use.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/include-what-you-use"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/sbin/include-what-you-use.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/sbin/include-what-you-use.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/sbin/include-what-you-use"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/include-what-you-use.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/include-what-you-use.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/include-what-you-use"
-      - "C:/Program Files (x86)/System_INTO/bin/include-what-you-use.com"
-      - "C:/Program Files (x86)/System_INTO/bin/include-what-you-use.exe"
-      - "C:/Program Files (x86)/System_INTO/bin/include-what-you-use"
-      - "C:/Program Files (x86)/System_INTO/sbin/include-what-you-use.com"
-      - "C:/Program Files (x86)/System_INTO/sbin/include-what-you-use.exe"
-      - "C:/Program Files (x86)/System_INTO/sbin/include-what-you-use"
-      - "C:/Program Files (x86)/System_INTO/include-what-you-use.com"
-      - "C:/Program Files (x86)/System_INTO/include-what-you-use.exe"
-      - "C:/Program Files (x86)/System_INTO/include-what-you-use"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/bin/iwyu.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/bin/iwyu.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/bin/iwyu"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/sbin/iwyu.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/sbin/iwyu.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/sbin/iwyu"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/iwyu.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/iwyu.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/CTM_Dev_Tools/CTM_Scoop/apps/sdl2/current/iwyu"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/iwyu.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/iwyu.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/iwyu"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/iwyu.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/iwyu.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/iwyu"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/iwyu.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/iwyu.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/iwyu"
-      - "C:/Users/PERSONAL_ACC_2026_A/Containment/Vulkan_SDK/Bin/iwyu.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/Containment/Vulkan_SDK/Bin/iwyu.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/Containment/Vulkan_SDK/Bin/iwyu"
-      - "C:/Windows/System32/iwyu.com"
-      - "C:/Windows/System32/iwyu.exe"
-      - "C:/Windows/System32/iwyu"
-      - "C:/Windows/iwyu.com"
-      - "C:/Windows/iwyu.exe"
-      - "C:/Windows/iwyu"
-      - "C:/Windows/System32/wbem/iwyu.com"
-      - "C:/Windows/System32/wbem/iwyu.exe"
-      - "C:/Windows/System32/wbem/iwyu"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/iwyu.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/iwyu.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/iwyu"
-      - "C:/Windows/System32/OpenSSH/iwyu.com"
-      - "C:/Windows/System32/OpenSSH/iwyu.exe"
-      - "C:/Windows/System32/OpenSSH/iwyu"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/iwyu.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/iwyu.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/iwyu"
-      - "C:/ProgramData/chocolatey/bin/iwyu.com"
-      - "C:/ProgramData/chocolatey/bin/iwyu.exe"
-      - "C:/ProgramData/chocolatey/bin/iwyu"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Git/cmd/iwyu.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Git/cmd/iwyu.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Git/cmd/iwyu"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/iwyu.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/iwyu.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/iwyu"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WindowsApps/iwyu.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WindowsApps/iwyu.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WindowsApps/iwyu"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe/iwyu.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe/iwyu.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe/iwyu"
-      - "C:/Users/PERSONAL_ACC_2026_A/User_Program_Files/QEMU/iwyu.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/User_Program_Files/QEMU/iwyu.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/User_Program_Files/QEMU/iwyu"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/iwyu.com"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/iwyu.exe"
-      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/iwyu"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/bin/iwyu.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/bin/iwyu.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/bin/iwyu"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/iwyu.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/iwyu.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/iwyu"
-      - "C:/Program Files/bin/iwyu.com"
-      - "C:/Program Files/bin/iwyu.exe"
-      - "C:/Program Files/bin/iwyu"
-      - "C:/Program Files/sbin/iwyu.com"
-      - "C:/Program Files/sbin/iwyu.exe"
-      - "C:/Program Files/sbin/iwyu"
-      - "C:/Program Files/iwyu.com"
-      - "C:/Program Files/iwyu.exe"
-      - "C:/Program Files/iwyu"
-      - "C:/Program Files (x86)/bin/iwyu.com"
-      - "C:/Program Files (x86)/bin/iwyu.exe"
-      - "C:/Program Files (x86)/bin/iwyu"
-      - "C:/Program Files (x86)/sbin/iwyu.com"
-      - "C:/Program Files (x86)/sbin/iwyu.exe"
-      - "C:/Program Files (x86)/sbin/iwyu"
-      - "C:/Program Files (x86)/iwyu.com"
-      - "C:/Program Files (x86)/iwyu.exe"
-      - "C:/Program Files (x86)/iwyu"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/iwyu.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/iwyu.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/bin/iwyu"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/sbin/iwyu.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/sbin/iwyu.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/sbin/iwyu"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/iwyu.com"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/iwyu.exe"
-      - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake/iwyu"
-      - "C:/Program Files (x86)/System_INTO/bin/iwyu.com"
-      - "C:/Program Files (x86)/System_INTO/bin/iwyu.exe"
-      - "C:/Program Files (x86)/System_INTO/bin/iwyu"
-      - "C:/Program Files (x86)/System_INTO/sbin/iwyu.com"
-      - "C:/Program Files (x86)/System_INTO/sbin/iwyu.exe"
-      - "C:/Program Files (x86)/System_INTO/sbin/iwyu"
-      - "C:/Program Files (x86)/System_INTO/iwyu.com"
-      - "C:/Program Files (x86)/System_INTO/iwyu.exe"
-      - "C:/Program Files (x86)/System_INTO/iwyu"
-    found: false
-    search_context:
-      ENV{CMAKE_PREFIX_PATH}:
-        - "C:\\Users\\PERSONAL_ACC_2026_A\\CTM_Dev_Tools\\CTM_Scoop\\apps\\sdl2\\current"
-      ENV{PATH}:
-        - "c:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\Microsoft_VS_Code"
-        - "C:\\Users\\PERSONAL_ACC_2026_A\\Containment\\Vulkan_SDK\\Bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\Git\\cmd"
-        - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "C:\\Users\\PERSONAL_ACC_2026_A\\User_Program_Files\\QEMU"
-        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\bin\\NASM"
-        - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\Microsoft_VS_Code\\bin"
-        - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\LLVM\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/System_INTO"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "A:/User_Space/User_Important_Intranet/User_Program_Files/CMake"
-        - "C:/Program Files (x86)/System_INTO"
 ...
