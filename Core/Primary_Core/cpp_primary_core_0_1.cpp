@@ -6,15 +6,14 @@
 #include "Central_Versioning_Utility/central_versioning_utility.hpp"
 #include "OS_Obtainer_Utility/os_obtainer_utility_0_1.hpp"
 
+
 int main(int argc, char* argv[]) {
     std::string os_name = OSOU::Obtain_OS();
-
 
     if (argc < 2) {
         std::print("No command provided, please provide a command.");
         return 1;
     }
-
 
     std::string command = argv[1];
 

@@ -66,6 +66,8 @@ events:
         - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\bin\\NASM"
         - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\Microsoft_VS_Code\\bin"
         - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\LLVM\\bin"
+        - "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Binary\\Debug"
+        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "message-v1"
     backtrace:
@@ -82,9 +84,9 @@ events:
       The output was:
       0
       MSBuild version 18.4.0+6e61e96ac for .NET Framework
-      Build started 5/7/2026 5:01:06 PM.
+      Build started 5/8/2026 8:23:44 PM.
       
-      Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows_Build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -97,7 +99,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows_Build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -105,13 +107,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows_Build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.78
+      Time Elapsed 00:00:03.24
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -119,7 +121,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows/CMakeFiles/4.3.2/CompilerIdC/CompilerIdC.exe
+        A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows_Build/CMakeFiles/4.3.2/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "find-v1"
@@ -163,6 +165,8 @@ events:
       - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/"
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/bin/"
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/"
+      - "A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Debug/"
+      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
@@ -199,6 +203,8 @@ events:
         - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\bin\\NASM"
         - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\Microsoft_VS_Code\\bin"
         - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\LLVM\\bin"
+        - "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Binary\\Debug"
+        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -241,6 +247,8 @@ events:
       - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/"
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/bin/"
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/"
+      - "A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Debug/"
+      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
@@ -334,6 +342,8 @@ events:
         - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\bin\\NASM"
         - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\Microsoft_VS_Code\\bin"
         - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\LLVM\\bin"
+        - "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Binary\\Debug"
+        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -374,6 +384,8 @@ events:
       - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/"
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/bin/"
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/"
+      - "A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Debug/"
+      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
@@ -410,6 +422,8 @@ events:
         - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\bin\\NASM"
         - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\Microsoft_VS_Code\\bin"
         - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\LLVM\\bin"
+        - "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Binary\\Debug"
+        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -450,6 +464,8 @@ events:
       - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/"
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/bin/"
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/"
+      - "A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Debug/"
+      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
@@ -511,6 +527,12 @@ events:
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/mt.com"
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/mt.exe"
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/mt"
+      - "A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Debug/mt.com"
+      - "A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Debug/mt.exe"
+      - "A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Debug/mt"
+      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.com"
+      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.exe"
+      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/mt"
     found: false
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
@@ -545,6 +567,8 @@ events:
         - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\bin\\NASM"
         - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\Microsoft_VS_Code\\bin"
         - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\LLVM\\bin"
+        - "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Binary\\Debug"
+        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -585,6 +609,8 @@ events:
       - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/"
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/bin/"
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/"
+      - "A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Debug/"
+      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
@@ -621,6 +647,8 @@ events:
         - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\bin\\NASM"
         - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\Microsoft_VS_Code\\bin"
         - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\LLVM\\bin"
+        - "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Binary\\Debug"
+        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -679,6 +707,8 @@ events:
         - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\bin\\NASM"
         - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\Microsoft_VS_Code\\bin"
         - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\LLVM\\bin"
+        - "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Binary\\Debug"
+        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "message-v1"
     backtrace:
@@ -695,9 +725,9 @@ events:
       The output was:
       0
       MSBuild version 18.4.0+6e61e96ac for .NET Framework
-      Build started 5/7/2026 5:01:09 PM.
+      Build started 5/8/2026 8:23:48 PM.
       
-      Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows_Build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -710,7 +740,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows_Build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -718,13 +748,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows_Build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.07
+      Time Elapsed 00:00:02.51
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -732,7 +762,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows/CMakeFiles/4.3.2/CompilerIdCXX/CompilerIdCXX.exe
+        A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows_Build/CMakeFiles/4.3.2/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "find-v1"
@@ -779,6 +809,8 @@ events:
       - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/"
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/Microsoft_VS_Code/bin/"
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/"
+      - "A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Debug/"
+      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -858,6 +890,12 @@ events:
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/rc.com"
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/rc.exe"
       - "A:/User_Space/User_Important_Intranet/User_Program_Files/LLVM/bin/rc"
+      - "A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Debug/rc.com"
+      - "A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Debug/rc.exe"
+      - "A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Debug/rc"
+      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.com"
+      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.exe"
+      - "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/rc"
       - "C:/Program Files/bin/rc.com"
       - "C:/Program Files/bin/rc.exe"
       - "C:/Program Files/bin/rc"
@@ -928,6 +966,8 @@ events:
         - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\bin\\NASM"
         - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\Microsoft_VS_Code\\bin"
         - "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\LLVM\\bin"
+        - "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Binary\\Debug"
+        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/System_INTO"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -943,8 +983,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows/CMakeFiles/CMakeScratch/TryCompile-kw33pm"
-      binary: "A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows/CMakeFiles/CMakeScratch/TryCompile-kw33pm"
+      source: "A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows_Build/CMakeFiles/CMakeScratch/TryCompile-8yb05v"
+      binary: "A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows_Build/CMakeFiles/CMakeScratch/TryCompile-8yb05v"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
@@ -954,39 +994,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows/CMakeFiles/CMakeScratch/TryCompile-kw33pm'
+        Change Dir: 'A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows_Build/CMakeFiles/CMakeScratch/TryCompile-8yb05v'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8a300.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_01278.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 5/7/2026 5:01:11 PM.
+        Build started 5/8/2026 8:23:51 PM.
         
-        Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows\\CMakeFiles\\CMakeScratch\\TryCompile-kw33pm\\cmTC_8a300.vcxproj" on node 1 (default targets).
+        Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows_Build\\CMakeFiles\\CMakeScratch\\TryCompile-8yb05v\\cmTC_01278.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows\\CMakeFiles\\CMakeScratch\\TryCompile-kw33pm\\Debug\\".
-          Creating directory "cmTC_8a300.dir\\Debug\\cmTC_8a300.tlog\\".
+          Creating directory "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows_Build\\CMakeFiles\\CMakeScratch\\TryCompile-8yb05v\\Debug\\".
+          Creating directory "cmTC_01278.dir\\Debug\\cmTC_01278.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_8a300.dir\\Debug\\cmTC_8a300.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_8a300.dir\\Debug\\cmTC_8a300.tlog\\unsuccessfulbuild".
+          Creating "cmTC_01278.dir\\Debug\\cmTC_01278.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_01278.dir\\Debug\\cmTC_01278.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_8a300.dir\\Debug\\\\" /Fd"cmTC_8a300.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_01278.dir\\Debug\\\\" /Fd"cmTC_01278.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35728 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_8a300.dir\\Debug\\\\" /Fd"cmTC_8a300.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_01278.dir\\Debug\\\\" /Fd"cmTC_01278.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows\\CMakeFiles\\CMakeScratch\\TryCompile-kw33pm\\Debug\\cmTC_8a300.exe" /INCREMENTAL /ILK:"cmTC_8a300.dir\\Debug\\cmTC_8a300.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows/CMakeFiles/CMakeScratch/TryCompile-kw33pm/Debug/cmTC_8a300.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows/CMakeFiles/CMakeScratch/TryCompile-kw33pm/Debug/cmTC_8a300.lib" /MACHINE:X64  /machine:x64 cmTC_8a300.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_8a300.vcxproj -> A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows\\CMakeFiles\\CMakeScratch\\TryCompile-kw33pm\\Debug\\cmTC_8a300.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows_Build\\CMakeFiles\\CMakeScratch\\TryCompile-8yb05v\\Debug\\cmTC_01278.exe" /INCREMENTAL /ILK:"cmTC_01278.dir\\Debug\\cmTC_01278.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows_Build/CMakeFiles/CMakeScratch/TryCompile-8yb05v/Debug/cmTC_01278.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows_Build/CMakeFiles/CMakeScratch/TryCompile-8yb05v/Debug/cmTC_01278.lib" /MACHINE:X64  /machine:x64 cmTC_01278.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_01278.vcxproj -> A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows_Build\\CMakeFiles\\CMakeScratch\\TryCompile-8yb05v\\Debug\\cmTC_01278.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_8a300.dir\\Debug\\cmTC_8a300.tlog\\unsuccessfulbuild".
-          Touching "cmTC_8a300.dir\\Debug\\cmTC_8a300.tlog\\cmTC_8a300.lastbuildstate".
-        Done Building Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows\\CMakeFiles\\CMakeScratch\\TryCompile-kw33pm\\cmTC_8a300.vcxproj" (default targets).
+          Deleting file "cmTC_01278.dir\\Debug\\cmTC_01278.tlog\\unsuccessfulbuild".
+          Touching "cmTC_01278.dir\\Debug\\cmTC_01278.tlog\\cmTC_01278.lastbuildstate".
+        Done Building Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows_Build\\CMakeFiles\\CMakeScratch\\TryCompile-8yb05v\\cmTC_01278.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.35
+        Time Elapsed 00:00:02.11
         
       exitCode: 0
   -
@@ -1026,8 +1066,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows/CMakeFiles/CMakeScratch/TryCompile-k7vcdo"
-      binary: "A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows/CMakeFiles/CMakeScratch/TryCompile-k7vcdo"
+      source: "A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows_Build/CMakeFiles/CMakeScratch/TryCompile-43nm18"
+      binary: "A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows_Build/CMakeFiles/CMakeScratch/TryCompile-43nm18"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1038,39 +1078,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows/CMakeFiles/CMakeScratch/TryCompile-k7vcdo'
+        Change Dir: 'A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows_Build/CMakeFiles/CMakeScratch/TryCompile-43nm18'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c4487.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2436b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 5/7/2026 5:01:13 PM.
+        Build started 5/8/2026 8:23:55 PM.
         
-        Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows\\CMakeFiles\\CMakeScratch\\TryCompile-k7vcdo\\cmTC_c4487.vcxproj" on node 1 (default targets).
+        Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows_Build\\CMakeFiles\\CMakeScratch\\TryCompile-43nm18\\cmTC_2436b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows\\CMakeFiles\\CMakeScratch\\TryCompile-k7vcdo\\Debug\\".
-          Creating directory "cmTC_c4487.dir\\Debug\\cmTC_c4487.tlog\\".
+          Creating directory "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows_Build\\CMakeFiles\\CMakeScratch\\TryCompile-43nm18\\Debug\\".
+          Creating directory "cmTC_2436b.dir\\Debug\\cmTC_2436b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c4487.dir\\Debug\\cmTC_c4487.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c4487.dir\\Debug\\cmTC_c4487.tlog\\unsuccessfulbuild".
+          Creating "cmTC_2436b.dir\\Debug\\cmTC_2436b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2436b.dir\\Debug\\cmTC_2436b.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_c4487.dir\\Debug\\\\" /Fd"cmTC_c4487.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_2436b.dir\\Debug\\\\" /Fd"cmTC_2436b.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35728 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_c4487.dir\\Debug\\\\" /Fd"cmTC_c4487.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_2436b.dir\\Debug\\\\" /Fd"cmTC_2436b.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "A:\\User_Space\\User_Important_Intranet\\User_Program_Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows\\CMakeFiles\\CMakeScratch\\TryCompile-k7vcdo\\Debug\\cmTC_c4487.exe" /INCREMENTAL /ILK:"cmTC_c4487.dir\\Debug\\cmTC_c4487.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows/CMakeFiles/CMakeScratch/TryCompile-k7vcdo/Debug/cmTC_c4487.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows/CMakeFiles/CMakeScratch/TryCompile-k7vcdo/Debug/cmTC_c4487.lib" /MACHINE:X64  /machine:x64 cmTC_c4487.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_c4487.vcxproj -> A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows\\CMakeFiles\\CMakeScratch\\TryCompile-k7vcdo\\Debug\\cmTC_c4487.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows_Build\\CMakeFiles\\CMakeScratch\\TryCompile-43nm18\\Debug\\cmTC_2436b.exe" /INCREMENTAL /ILK:"cmTC_2436b.dir\\Debug\\cmTC_2436b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows_Build/CMakeFiles/CMakeScratch/TryCompile-43nm18/Debug/cmTC_2436b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows_Build/CMakeFiles/CMakeScratch/TryCompile-43nm18/Debug/cmTC_2436b.lib" /MACHINE:X64  /machine:x64 cmTC_2436b.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_2436b.vcxproj -> A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows_Build\\CMakeFiles\\CMakeScratch\\TryCompile-43nm18\\Debug\\cmTC_2436b.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_c4487.dir\\Debug\\cmTC_c4487.tlog\\unsuccessfulbuild".
-          Touching "cmTC_c4487.dir\\Debug\\cmTC_c4487.tlog\\cmTC_c4487.lastbuildstate".
-        Done Building Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows\\CMakeFiles\\CMakeScratch\\TryCompile-k7vcdo\\cmTC_c4487.vcxproj" (default targets).
+          Deleting file "cmTC_2436b.dir\\Debug\\cmTC_2436b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2436b.dir\\Debug\\cmTC_2436b.tlog\\cmTC_2436b.lastbuildstate".
+        Done Building Project "A:\\User_Space\\User_Documents\\Git_Clones\\System_INTO\\Build\\Windows_Build\\CMakeFiles\\CMakeScratch\\TryCompile-43nm18\\cmTC_2436b.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.17
+        Time Elapsed 00:00:02.47
         
       exitCode: 0
   -
