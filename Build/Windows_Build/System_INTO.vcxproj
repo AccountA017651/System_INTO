@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\User_Space\User_Documents\Git_Clones\System_INTO\Binary\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\User_Space\User_Documents\Git_Clones\System_INTO\Binary\Windows_Binary\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">System_INTO.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">System_INTO</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">A:\User_Space\User_Documents\Git_Clones\System_INTO\Binary\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">A:\User_Space\User_Documents\Git_Clones\System_INTO\Binary\Windows_Binary\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">System_INTO.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">System_INTO</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">A:\User_Space\User_Documents\Git_Clones\System_INTO\Binary\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">A:\User_Space\User_Documents\Git_Clones\System_INTO\Binary\Windows_Binary\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">System_INTO.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">System_INTO</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">A:\User_Space\User_Documents\Git_Clones\System_INTO\Binary\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">A:\User_Space\User_Documents\Git_Clones\System_INTO\Binary\Windows_Binary\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">System_INTO.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">System_INTO</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -133,7 +133,7 @@
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
       <ImportLibrary>A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows_Build/Debug/System_INTO.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Debug/System_INTO.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Windows_Binary/Debug/System_INTO.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -191,7 +191,7 @@
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
       <ImportLibrary>A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows_Build/Release/System_INTO.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Release/System_INTO.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Windows_Binary/Release/System_INTO.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -249,7 +249,7 @@
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
       <ImportLibrary>A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows_Build/MinSizeRel/System_INTO.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/MinSizeRel/System_INTO.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Windows_Binary/MinSizeRel/System_INTO.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -306,7 +306,7 @@
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
       <ImportLibrary>A:/User_Space/User_Documents/Git_Clones/System_INTO/Build/Windows_Build/RelWithDebInfo/System_INTO.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/RelWithDebInfo/System_INTO.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>A:/User_Space/User_Documents/Git_Clones/System_INTO/Binary/Windows_Binary/RelWithDebInfo/System_INTO.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
