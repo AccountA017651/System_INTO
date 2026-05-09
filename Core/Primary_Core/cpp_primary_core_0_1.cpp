@@ -34,8 +34,6 @@ int main(int argc, char* argv[]) {
         auto flag_map_iterator = flag_map.find(argv[index]);
         if (flag_map_iterator != flag_map.end()) {
             flag_map_iterator->second();
-            
-            return 0;
         }
     }
 
