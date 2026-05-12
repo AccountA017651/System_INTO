@@ -1124,3 +1124,717 @@ events:
       Microsoft (R) Incremental Linker Version 14.50.35728.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "External/SDL_3_4_8/cmake/sdlcpu.cmake:95 (try_compile)"
+      - "External/SDL_3_4_8/cmake/SDL3ConfigVersion.cmake:32 (SDL_DetectTargetCPUArchitectures)"
+      - "CMakeLists.txt:14 (find_package)"
+    directories:
+      source: "A:/User_Space/User_Documents/Git_Clones/Tool_N/Build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+      binary: "A:/User_Space/User_Documents/Git_Clones/Tool_N/Build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "SDL_CPU_CHECK_ALL"
+      cached: true
+      stdout: |
+        Change Dir: 'A:/User_Space/User_Documents/Git_Clones/Tool_N/Build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_94633.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 5/12/2026 6:30:27 PM.
+        
+        Project "A:\\User_Space\\User_Documents\\Git_Clones\\Tool_N\\Build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_94633.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "A:\\User_Space\\User_Documents\\Git_Clones\\Tool_N\\Build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_94633.dir\\Debug\\cmTC_94633.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_94633.dir\\Debug\\cmTC_94633.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_94633.dir\\Debug\\cmTC_94633.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_94633.dir\\Debug\\\\" /Fd"A:\\User_Space\\User_Documents\\Git_Clones\\Tool_N\\Build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_94633.pdb" /external:W3 /TC /errorReport:queue A:\\User_Space\\User_Documents\\Git_Clones\\Tool_N\\Build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35728 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_94633.dir\\Debug\\\\" /Fd"A:\\User_Space\\User_Documents\\Git_Clones\\Tool_N\\Build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_94633.pdb" /external:W3 /TC /errorReport:queue A:\\User_Space\\User_Documents\\Git_Clones\\Tool_N\\Build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c
+          SDL_detect_arch.c
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\Lib.exe /OUT:"A:\\User_Space\\User_Documents\\Git_Clones\\Tool_N\\Build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_94633.lib" /NOLOGO /MACHINE:X64  /machine:x64 cmTC_94633.dir\\Debug\\SDL_detect_arch.obj
+          cmTC_94633.vcxproj -> A:\\User_Space\\User_Documents\\Git_Clones\\Tool_N\\Build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_94633.lib
+        FinalizeBuildStatus:
+          Deleting file "cmTC_94633.dir\\Debug\\cmTC_94633.tlog\\unsuccessfulbuild".
+          Touching "cmTC_94633.dir\\Debug\\cmTC_94633.tlog\\cmTC_94633.lastbuildstate".
+        Done Building Project "A:\\User_Space\\User_Documents\\Git_Clones\\Tool_N\\Build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_94633.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.03
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:14 (find_package)"
+    name: "SDL3"
+    configs:
+      -
+        filename: "SDL3.cps"
+        kind: "cps"
+      -
+        filename: "sdl3.cps"
+        kind: "cps"
+      -
+        filename: "SDL3Config.cmake"
+        kind: "cmake"
+      -
+        filename: "sdl3-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SDL3"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "A:/User_Space/User_Documents/Git_Clones/Tool_N/External/SDL_3_4_8/cmake/SDL3.cps"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Documents/Git_Clones/Tool_N/External/SDL_3_4_8/cmake/sdl3.cps"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Documents/Git_Clones/Tool_N/External/SDL_3_4_8/cmake/SDL3Config.cmake"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Documents/Git_Clones/Tool_N/External/SDL_3_4_8/cmake/sdl3-config.cmake"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Documents/Git_Clones/Tool_N/Build/CMakeFiles/pkgRedirects/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Documents/Git_Clones/Tool_N/Build/CMakeFiles/pkgRedirects/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Documents/Git_Clones/Tool_N/Build/CMakeFiles/pkgRedirects/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Documents/Git_Clones/Tool_N/Build/CMakeFiles/pkgRedirects/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Documents/Git_Clones/Tool_N/Build/CMakeFiles/pkgRedirects/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Documents/Git_Clones/Tool_N/Build/CMakeFiles/pkgRedirects/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Visual_Studio_Code/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Visual_Studio_Code/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Visual_Studio_Code/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Visual_Studio_Code/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Visual_Studio_Code/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Visual_Studio_Code/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Git/cmd/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Git/cmd/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Git/cmd/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Git/cmd/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Git/cmd/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Git/cmd/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/CMake/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/CMake/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/CMake/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/CMake/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/CMake/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/CMake/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/qemu/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/qemu/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/qemu/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/qemu/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/qemu/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/qemu/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Neovim/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Neovim/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Neovim/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Neovim/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Neovim/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/Neovim/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WindowsApps/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WindowsApps/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WindowsApps/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WindowsApps/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WindowsApps/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WindowsApps/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/bin/NASM/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/LLVM/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/LLVM/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/LLVM/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/LLVM/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/LLVM/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Program_Files/LLVM/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Documents/Git_Clones/Tool_N/Binary/Debug/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Documents/Git_Clones/Tool_N/Binary/Debug/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Documents/Git_Clones/Tool_N/Binary/Debug/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Documents/Git_Clones/Tool_N/Binary/Debug/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Documents/Git_Clones/Tool_N/Binary/Debug/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "A:/User_Space/User_Documents/Git_Clones/Tool_N/Binary/Debug/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/PERSONAL_ACC_2026_A/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "C:\\Users\\PERSONAL_ACC_2026_A\\CTM_Dev_Tools\\CTM_Scoop\\apps\\sdl2\\current"
+      ENV{PATH}:
+        - "c:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "A:\\User_Space\\User_Program_Files\\Visual_Studio_Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "A:\\User_Space\\User_Program_Files\\Git\\cmd"
+        - "A:\\User_Space\\\\User_Program_Files\\CMake\\bin"
+        - "A:\\User_Space\\User_Program_Files\\qemu\\"
+        - "A:\\User_Space\\User_Program_Files\\Neovim\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sinelaw.fresh-editor_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\bin\\NASM"
+        - "A:\\User_Space\\User_Program_Files\\Microsoft_VS_Code\\bin"
+        - "A:\\User_Space\\User_Program_Files\\LLVM\\bin"
+        - "A:\\User_Space\\User_Documents\\Git_Clones\\Tool_N\\Binary\\Debug"
+        - "C:\\Users\\PERSONAL_ACC_2026_A\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "A:\\User_Space\\User_Program_Files\\qemu\\"
+        - "A:\\User_Space\\User_Program_Files\\Visual_Studio_Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/System_INTO"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "A:/User_Space/User_Program_Files/CMake"
+        - "C:/Program Files (x86)/System_INTO"
+...
