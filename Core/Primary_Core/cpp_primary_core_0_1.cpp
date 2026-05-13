@@ -5,13 +5,15 @@
 #include <functional>
 
 #include "Central_Versioning_Utility/central_versioning_utility.hpp"
-#include "OS_Obtainer_Utility/os_obtainer_utility_0_1.hpp"
+#include "Obtainer_Panel/OS_Obtainer_Utility/os_obtainer_utility_0_1.hpp"
 #include "Terminal_Color_Utility/terminal_color_utility.hpp"
 #include "Miscellaneous_Panel/Crasher_Utility/crasher_utility.hpp"
 #include "Miscellaneous_Panel/Long_Outputs_Utility/help_command_long_print_utility.hpp"
+#include "Obtainer_Panel/CPU_Architecture_Obtainer_Utility/cpu_architecture_obtainer_utility.hpp"
 
 int main(int argc, char* argv[]) {
     std::string os_name = OSOU::Obtain_OS();
+    std::string cpu_architecture_name = CPUARCHOU::Obtain_CPU_Architecture();
     bool command_used = false;
 
     if (argc < 2) {
@@ -21,21 +23,24 @@ int main(int argc, char* argv[]) {
 
     // Flag handler
     std::unordered_map<std::string, std::function<void()>> flag_map = {
+        // QoL flags
         {"--version", [&](){ std::print("Tool_N version: {}.{}.{}.{}\n", CVU::VERSION_MAJOR, CVU::VERSION_MINOR, CVU::VERSION_FIX, CVU::VERSION_STAGE); }},
         {"-v",        [&](){ std::print("Tool_N version: {}.{}.{}.{}\n", CVU::VERSION_MAJOR, CVU::VERSION_MINOR, CVU::VERSION_FIX, CVU::VERSION_STAGE); }},
-        {"--os_name", [&](){ std::print("OS name: {}\n", os_name); }},
-        {"-osn",      [&](){ std::print("OS name: {}\n", os_name); }},
         {"--help",    [&](){ LN_PRINT::Help_Command_Output(); }},
         {"-h",        [&](){ LN_PRINT::Help_Command_Output(); }}
     };
 
     // Command handler
     std::unordered_map<std::string, std::function<void()>> command_map = {
-        {"Misc-Predictable-Terminate-0",    [&](){ CHR::DFND_BHVR::Explicit_Abort(); } },
+        // Misc commands
+        {"Misc-Predictable-Terminate-0",      [&](){ CHR::DFND_BHVR::Explicit_Abort(); } },
         {"Misc-Unpredictable-Terminate-0",    [&](){ CHR::UNDN_BHVR::Divide_Zero(); } },
         {"Misc-Unpredictable-Terminate-1",    [&](){ CHR::UNDN_BHVR::Null_Pointer_Dereference(42); } },
         {"Misc-Unpredictable-Terminate-2",    [&](){ CHR::UNDN_BHVR::Stack_Overflow(); } },
-        {"Misc-Unpredictable-Terminate-3",    [&](){ CHR::UNDN_BHVR::Volatile_Assembly_Illegal_Instruction(); } }
+        {"Misc-Unpredictable-Terminate-3",    [&](){ CHR::UNDN_BHVR::Volatile_Assembly_Illegal_Instruction(); } },
+        // Info commands
+        {"Info-CPU-Architecture",             [&](){ std::print("CPU Architecture: {}", cpu_architecture_name); }},
+        {"Info-Operating-System",             [&](){ std::print("OS name: {}\n", os_name); }}
     };
 
 
